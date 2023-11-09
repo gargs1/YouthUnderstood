@@ -1,0 +1,103 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+.stat{
+  font-size: 18px;
+  color: white;
+}
+
+#lights{
+  border-radius: 10%;
+  margin-top: 2em;
+}
+/* STYLE SECTIONING TAGS */
+body {
+  font-family: 'Arvo', serif;
+  text-align: center;
+  background-color:  #CAF0F8;
+}
+
+main{
+  margin-top: 0;
+  margin-bottom: 2%;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+/* STYLE TEXT */
+header{
+  text-align: center;
+  color: #03045E;
+  background-color: #90E0EF;
+  padding-top: 2em;
+  padding-bottom: 3em;
+}
+
+h1{  
+  font-family: "Caprasimo",sans-serif;
+  font-size: 65px;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+h2{
+  font-family: sans-serif;
+  font-size: 50px;
+  padding: 1em;
+  color: black;
+}
+
+h3{
+  font-family: sans-serif;
+  font-size: 25px;
+  padding: 1em;
+  color: black;
+}
+p {
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+  padding: 0.5em;
+}
+
+a{
+  color: white;
+}
+
+/* STYLE IMAGES */
+img {
+  border-radius: 5%;
+  border: 5px solid #0077B6;
+  max-height: 400px;
+  margin-bottom: 2em;
+  display: inline;
+  height: 400px;
+  width: 400px;
+  object-fit: cover;
+}
+
+/* STYLE NAV BAR */
+ul{
+  list-style-type: none;
+  background-color: #03045E;
+  overflow: hidden;
+  padding: 1em;
+}
+
+li{
+  font-family: 'Montserrat Alternates', sans-serif;
+  display: inline;  
+}
+
+li a{
+  text-decoration: none;
+  font-size: 1.3em;
+  padding: 1em;
+  color: #FFFAFF;
+}
+
+li a:hover{
+  background-color: #0077B6;
+  color: white;
+}
